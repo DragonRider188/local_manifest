@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- fetching sources -->      
+
+        <remote name="DragonRaider118"
+                fetch="https://github.com/DragonRaider118" />
+
+
+<!-- device trees -->
+
+        <project path="device/realme/r5x" name="device_realme_r5xx" remote="DragonRaider118" revision="awaken" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="DragonRaider118" revision="twelve" />
+        <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="DragonRaider118" revision="devel" clone-depth="1" />
+
+</manifest>
