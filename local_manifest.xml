@@ -18,6 +18,6 @@
 <!-- Replacement -->
 
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="DragonRider118" revision="12.1" />
+        <project path="frameworks/base" name="frameworks_base" remote="DragonRider188" revision="12.1" />
 
 </manifest>
