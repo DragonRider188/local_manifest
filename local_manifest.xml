@@ -14,4 +14,9 @@
         <project path="kernel/realme/r5x" name="kernel_realme_trinket" remote="DragonRider188" revision="devel" clone-depth="1" />
         <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="DragonRider188" revision="lineage-18.1" />
 
+<!-- Replacement -->
+
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="DragonRider188" revision="12.1" />
+
 </manifest>
